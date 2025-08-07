@@ -1,0 +1,59 @@
+/* Ubah warna latar belakang utama */
+body {
+    background-color: #0f0f0f;  /* warna gelap ala game */
+    color: white;
+}
+
+/* Area utama konten Streamlit */
+.stApp {
+    background-color: #121212; /* abu gelap */
+    color: white;
+}
+
+/* Judul besar */
+h1 {
+    color: #00ffcc;
+}
+
+/* Judul-judul lainnya */
+h2, h3, h4, h5, h6 {
+    color: #00ffcc;
+}
+
+/* Teks umum agar tidak gelap */
+p, .stText, .stMarkdown, .stDataFrame, .stTable, .stException {
+    color: white !important;
+}
+
+/* Box input seperti number input & selectbox */
+.stNumberInput, .stSelectbox {
+    background-color: #1f1f1f;
+    color: white;
+    border: 1px solid #00ffcc;
+    border-radius: 5px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #00ffcc;
+    border-radius: 10px;
+}
+
+/* Tombol dengan kontras tinggi dan nyaman di mata */
+.stButton > button {
+    background-color: #004d66;  /* biru tua */
+    color: white;               /* teks putih */
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.stButton > button:hover {
+    background-color: #006680;  /* biru sedikit lebih terang saat hover */
+    color: white;
+}
